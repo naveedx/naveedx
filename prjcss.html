@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <style>
+        #container{
+            display: flex;
+            background-color: #aaa;
+
+        }
+        .items1{
+            flex-basis: 25%;
+            /* flex-wrap: wrap; */
+            flex-shrink: 0;
+            flex-grow: 0;
+            box-sizing: border-box;
+            min-height: 5vh;
+            padding: 5px;
+            text-align: justify;
+            text-decoration: none;
+        }
+        .animation{
+            transition: all 0.3s;
+
+        }
+        .animation:Hover{
+            font-size: 6vh;
+            font-weight: bold;
+            background-color: #000;
+            color: #aaa;
+            transform: rotateX(45);
+            
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+            <ul class="items1 animation" ><a href="">Movies Request Page</a></ul>
+            <ul class="items1 animation" ><a href="">How to Downloads?</a></ul>
+            <ul class="items1 animation" ><a href="">Contact Us!</a></ul>
+            <ul class="items1 animation" ><a href="">About</a></ul>
+    </div>
+    <div><h1><img scr=""/>KATMOVIE HD</h1></div>
+</body>
+</html>
