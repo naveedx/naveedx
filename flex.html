@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        #container{
+            display: flex;
+            
+            flex-wrap: wrap;
+            
+            
+        }
+        /* #container div { */
+            /* border: 1px solid red; */
+            
+        /* } */
+        #container div.navigation{
+            flex-basis: 30%;
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+        .Containt{
+            flex-basis: 70%;
+            flex-grow: 1;
+            flex-shrink: 0;
+
+        }
+        .header{
+            flex-basis: 100%;
+            flex-grow: 1;
+            flex-shrink: 0;
+            /* border: 1px solid red; */
+            height: 32px;
+        }
+        /* #container  div.right{
+            flex-basis: 75%;
+
+        } */
+        .sidenav{
+            font-size: 12px;
+            /* display: inline-grid; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header" style="text-align: center;">
+        Header
+    </div>
+     <!-- <div id="container"> 
+        <div>Left</div>
+        <div>center</div>
+        <div class="right">Right</div>
+        <div class="right">Right</div>
+        <div class="right">Right</div>
+        <div class="right">Right</div> -->
+    <div id="container">
+        <div class="Navigation sidenav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="Containt">
+            <h1 style="text-align: center;">Hello World</h1> 
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt molestiae deleniti atque quisquam nam, architecto maiores fuga similique inventore! Rerum esse facilis necessitatibus alias eveniet enim vitae quos quas error?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odit ratione enim quia ea blanditiis ut corrupti similique ipsa mollitia veniam expedita totam et modi ad accusantium, aliquid dolor error.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem ut corrupti voluptatibus alias? Voluptatum, hic, sunt dolorem perferendis placeat pariatur nam nisi odio molestiae fuga ducimus non cumque unde numquam?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ex repellat molestiae blanditiis perspiciatis deserunt eos facilis, suscipit deleniti quidem aliquid dolorum asperiores nihil, animi iusto repudiandae voluptatibus hic iure?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ex repellat molestiae blanditiis perspiciatis deserunt eos facilis, suscipit deleniti quidem aliquid dolorum asperiores nihil, animi iusto repudiandae voluptatibus hic iure?</p>
+            <h2 style="text-align: center;">Hello World</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt commodi odit, ab maiores incidunt corrupti molestias laborum enim hic vero, illum possimus reprehenderit quaerat reiciendis fugit facere culpa repellat. Voluptatibus?</p>
+        </div>
+    </div>
+    
+</body>
+</html>
