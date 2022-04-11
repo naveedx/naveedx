@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @naveedx
-- 👀 I’m interested in Web Development
-- 🌱 I’m currently learning javascript
-- 💞️ I’m looking to collaborate on project for my resume
+- 👀 I’m Machine Learning Engineer
+- 🌱 I’m currently learning deeplearning
+- 💞️ I’m looking to collaborate on project 
 - 📫 How to reach me ...Naveedansari.786.na@gmail.com
 
 <!---
